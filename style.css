@@ -9,18 +9,23 @@ body {
 	font-family: 'PT Sans Caption', Arial, sans-serif; 
 	font-weight: bold;
  	color: #000000;
-
-}
+ 	position: relative;
+ }
 
 .header-wrap {
-	padding: 54px 38px 33px;
+	padding: 54px 38px 27px 20px;
 }
 
 .header {
 	display: flex;
-	min-height: 127px;
+	min-height: 104px;
 	flex-direction: column;
 	justify-content: space-between;
+	align-items: center;
+}
+
+.main-menu {
+	display: none;
 }
 
 .menu__icon {
@@ -28,10 +33,10 @@ body {
 	height: 3px; 
 	background: #FF9100;
 	position: relative;
-	transform: translateY(7px);
 	display: block;
 	align-self: flex-end;
 	cursor: pointer;
+	transform: translateY(7px);
 
 }
 
@@ -45,25 +50,54 @@ body {
 }
 .menu__icon:before {
 	transform: translateY(-220%); 
-} 
+}
+
 .menu__icon:after {
 	transform: translateY(220%)
 }
 
 .logo-wrap {
-	text-align: center;
-
+	padding-left: 55px;
+	position: relative;
 }
 .logo-title {
-	display:block;
-	position: relative;
-	font-size: 30px;
+	/*display:block;
+	transform: translate(-13px, -4px);
 
+	/*font-size: 44px;
+	transform: scaleX(0.9);
+	line-height: 52px;*/
 }
-.main-menu {
-	display: none;
+
+.logo-wrap:before {
+	position: absolute;
+	content: "";
+	width: 32px;
+    height: 32px;
+    background: #FF9100;
+	opacity: 0.5;
+	border-radius: 5px;
+	transform: rotate(135deg);
+	z-index: 1;
+	left:0;
+	bottom: 10px;
 }
-/*for menu 
+.logo-wrap:after {
+	position: absolute;
+	content: "";
+	width: 32px;
+    height: 32px;
+    background: #FF9100;
+	opacity: 0.5;
+	border-radius: 5px;
+	transform: rotate(135deg);
+	z-index: 2;
+	left: 4px;
+	bottom: 5px;
+}
+
+	
+	/*for menu 
 
 .main-menu {
 	display: block;
@@ -84,56 +118,19 @@ body {
 
 }*/
 
-.logo-wrap{
-	position: relative;
-	padding-left: 40px;
-}
-
-.logo-wrap:before {
-	position: absolute;
-	content: "";
-	width: 29px;
-    height: 29px;
-    background: #FF9100;
-	opacity: 0.5;
-	border-radius: 5px;
-	transform: rotate(135deg);
-	z-index: 1;
-	left:0;
-	bottom: 4px;
-}
-.logo-wrap:after {
-	position: absolute;
-	content: "";
-	width: 29px;
-    height: 29px;
-    background: #FF9100;
-	opacity: 0.5;
-	border-radius: 5px;
-	transform: rotate(135deg);
-	z-index: 2;
-	left: 4px;
-	bottom: 0;
-}
-
-.logo-title {
-	display: block;
-	font-size: 37px;
-	
-}
 .content {
 	background-image: url(img/iphone.svg);
 	background-repeat: no-repeat;
-	background-position: center 222px;
-	background-size: 275px;
-	min-height: 667px;
+	background-position: center 204px;
+	background-size: 310px;
+	min-height: 483px;
 }
 
 .content-title {
 	font-style: normal;
 	font-size: 24px;
 	line-height: 31px;
-	margin: 0 auto 66px;
+	margin: 0 auto 62px;
 	text-align: center;
 	max-width: 283px; 
 }
