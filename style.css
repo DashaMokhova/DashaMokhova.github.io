@@ -88,6 +88,7 @@ body {
 	left: 4px;
 	bottom: 5px;
 }
+
 	
 	/*for menu 
 
@@ -209,6 +210,7 @@ body {
     min-height: 104px;
 	flex-direction: row;
 	justify-content: space-around;
+	
 }
 
 .content-title {
@@ -253,6 +255,7 @@ body {
     left: 0px;
     top: 0px;
     background-repeat: no-repeat;
+   
 }
 
 .wrap:after {
@@ -283,6 +286,7 @@ body {
 .main-menu {
 	display: flex;
 	padding-top: 5px;
+	
 }
 
 .main-menu__item {
@@ -293,13 +297,13 @@ body {
 	text-decoration: none;
 	color: #504A62;
 	padding: 12px;
+	       
 }
 
 .logo-wrap {
 	padding-left: 40px;
 	position: relative;
 }
-
 .logo-title {
 	transform: scale(0.65);
     transform-origin: left 25px;
@@ -318,7 +322,6 @@ body {
 	left:0;
 	bottom: 10px;
 }
-
 .logo-wrap:after {
 	position: absolute;
 	content: "";
@@ -332,7 +335,6 @@ body {
 	left: 4px;
 	bottom: 5px;
 }
-
 .content {
 	background-position: center 221px;
 	background-size: 391px;
@@ -346,6 +348,7 @@ body {
 	margin: 0 auto 40px;
 	text-align: center;
 	max-width: 720px; 
+
 }
 
 .content__button-wrapper {
@@ -353,6 +356,7 @@ body {
 	display: flex;
     justify-content: space-between;
     margin: 0 auto ;
+    
 }
 
 .download-button{
@@ -369,6 +373,7 @@ body {
 
 .header-wrap {
 	padding: 33px 141px 18px 223px;
+	
 }
 
 .wrap:before {
@@ -409,6 +414,7 @@ body {
 .main-menu {
 	display: flex;
 	padding-top: 5px;
+	
 }
 
 .main-menu__item {
@@ -425,7 +431,6 @@ body {
 	padding-left: 40px;
 	position: relative;
 }
-
 .logo-title {
 	transform: scale(0.65);
     transform-origin: left 25px;
@@ -444,7 +449,6 @@ body {
 	left:0;
 	bottom: 10px;
 }
-
 .logo-wrap:after {
 	position: absolute;
 	content: "";
@@ -458,7 +462,6 @@ body {
 	left: 4px;
 	bottom: 5px;
 }
-
 .content {
 	background-position: center 221px;
 	background-size: 391px;
@@ -472,6 +475,7 @@ body {
 	margin: 0 auto 40px;
 	text-align: center;
 	max-width: 720px; 
+
 }
 
 .content__button-wrapper {
@@ -487,6 +491,8 @@ body {
 	padding:0;
 }
 }
+
+
 
 @media (min-width: 1920px) {
 	.wrap {
@@ -530,6 +536,7 @@ body {
 	flex-direction: row;
 	justify-content: space-between;
 	align-items: flex-start;
+
 }
 
 .menu__icon {
